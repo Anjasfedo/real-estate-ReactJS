@@ -1,7 +1,8 @@
 import React, { useState } from "react";
-import { FaBars, FaEnvelope, FaHome, FaLocationArrow, FaPhone } from "react-icons/fa";
-import { IoHome, IoPersonCircleOutline } from "react-icons/io5";
+import { FaBars, FaEnvelope, FaLocationArrow, FaPhone } from "react-icons/fa";
+import { IoPersonCircleOutline } from "react-icons/io5";
 import { AiOutlineClose } from "react-icons/ai";
+import { TbHomeCheck } from "react-icons/tb";
 
 const Navbar = () => {
   const [navBarOpen, setNavBarOpen] = useState(true);
@@ -53,7 +54,7 @@ const Navbar = () => {
           <div className="w-full lg:w-auto flex justify-between items-center">
             <span className="flex items-center gap-x-2">
               <button className="bg-[#0ca39a] text-white rounded-full w-14 h-14">
-                <IoHome className="w-1/2 h-1/2 m-auto" />
+                <TbHomeCheck className="w-1/2 h-1/2 m-auto" />
               </button>
               <p className="font-medium text-xl">Anjas</p>
             </span>
@@ -68,7 +69,7 @@ const Navbar = () => {
           </div>
 
           <div
-            className={`lg:flex lg:items-center items-baseline pt-4 lg:h-auto h-screen ${
+            className={`lg:flex lg:items-center items-baseline lg:h-auto lg:mx-0 mx-auto h-screen ${
               navBarOpen ? "flex" : "hidden"
             }`}
           >
@@ -102,7 +103,7 @@ const Navbar = () => {
 
               <li className="py-2 flex font-medium items-center leading-snug">
                 <button className="bg-[#0ca39a] rounded-full py-4 px-6 flex items-center gap-2">
-                  <FaHome className="text-xl" />
+                  <TbHomeCheck className="text-xl" />
                   <p>Add Listing</p>
                 </button>
               </li>
