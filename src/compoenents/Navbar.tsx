@@ -5,7 +5,7 @@ import { AiOutlineClose } from "react-icons/ai";
 import { TbHomeCheck } from "react-icons/tb";
 
 const Navbar = () => {
-  const [navBarOpen, setNavBarOpen] = useState(true);
+  const [navBarOpen, setNavBarOpen] = useState(false);
 
   return (
     <nav className="sticky top-0 z-50">
