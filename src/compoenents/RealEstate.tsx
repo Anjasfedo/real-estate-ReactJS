@@ -134,25 +134,58 @@ const RealEstate = () => {
         </span>
         <div className="py-12">
           <Marquee>
-            <img src="/assets/img-blank.PNG" alt="" className="mr-8 h-8" />
-            <img src="/assets/img-blank.PNG" alt="" className="mr-8 h-8" />
-            <img src="/assets/img-blank.PNG" alt="" className="mr-8 h-8" />
-            <img src="/assets/img-blank.PNG" alt="" className="mr-8 h-8" />
-            <img src="/assets/img-blank.PNG" alt="" className="mr-8 h-8" />
-            <img src="/assets/img-blank.PNG" alt="" className="mr-8 h-8" />
+            <img src="/assets/img-blank.PNG" alt="" className="mr-4 h-8" />
+            <img src="/assets/img-blank.PNG" alt="" className="mr-4 h-8" />
+            <img src="/assets/img-blank.PNG" alt="" className="mr-4 h-8" />
+            <img src="/assets/img-blank.PNG" alt="" className="mr-4 h-8" />
+            <img src="/assets/img-blank.PNG" alt="" className="mr-4 h-8" />
+            <img src="/assets/img-blank.PNG" alt="" className="mr-4 h-8" />
           </Marquee>
         </div>
       </div>
-      <div className="lg:flex justify-center lg:-mt-16 gap-x-8 lg:px-0 px-3">
+      <div className="lg:flex justify-center lg:mt-16 gap-x-8 lg:px-0 px-3">
         <div className="bg-white rounded-full py-4 lg:px-8 flex items-center justify-center gap-x-4 shadow-2xl">
           <span className="flex items-center relative h-10 w-44">
             {images.map((img, index) => (
               <div key={index} className="lg:mr-7 mr-5 h-full">
-                <img src={img} alt={img} className="w-10 h-10 rounded-full object-cover absolute bg-[#f2f2f2] border border-white" />
+                <img
+                  src={img}
+                  alt={img}
+                  className="w-10 h-10 rounded-full object-cover absolute bg-[#f2f2f2] border border-white"
+                />
               </div>
             ))}
-<button className="bg-black w-8 h-8 rounded-full text-white relative "><FaPlus /> </button>
+            <button className="bg-black w-8 h-8 rounded-full text-white relative flex items-center justify-center">
+              <FaPlus />
+            </button>
           </span>
+          <p className="w-36 md:text-xl font-medium">72k+ Happy Customers</p>
+        </div>
+        <div className="bg-white rounded-full py-4 lg:px-8 px-3 flex items-center justify-center gap-x-4 shadow-2xl lg:mt-0 mt-4">
+          <img
+            src="/assets/img-blank.PNG"
+            alt=""
+            className="w-12 h-12 rounded-full"
+          />
+          <p className="md:text-xl font-medium">
+            200+ New <br /> Listings Everyday!
+          </p>
+        </div>
+      </div>
+      <div className="lg:block hidden container mx-auto px-3 py-16">
+        <span className="lg:flex items-end gap-x-60 lg:text-left text-center">
+          <button className="lg:block hidden bg-gradient-to-r from-[#8bd3ce] to-[#6ff9f9]  rounded-full h-12 w-12 cursor-auto"></button>
+          <p className="text-[# a5a5a5]">Trusted by 100+ companies</p>
+        </span>
+        <div className="py-12">
+          <Marquee>
+            <img src="/assets/img-blank.PNG" alt="" className="mr-16 h-8" />
+            <img src="/assets/img-blank.PNG" alt="" className="mr-16 h-8" />
+            <img src="/assets/img-blank.PNG" alt="" className="mr-16 h-8" />
+            <img src="/assets/img-blank.PNG" alt="" className="mr-16 h-8" />
+            <img src="/assets/img-blank.PNG" alt="" className="mr-16 h-8" />
+            <img src="/assets/img-blank.PNG" alt="" className="mr-16 h-8" />
+          </Marquee>
         </div>
       </div>
     </main>
