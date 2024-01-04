@@ -1,10 +1,10 @@
-import { FaFire } from "react-icons/fa";
+import { FaDollarSign, FaFire, FaHouseUser } from "react-icons/fa";
 import { PiBed } from "react-icons/pi";
 import { LuBath } from "react-icons/lu";
 import Carousel from "react-multi-carousel";
 
 const responsive = {
-  tv: {
+  superLargeDesktop: {
     breakpoint: { max: 4000, min: 1400 },
     items: 3.2,
   },
@@ -73,8 +73,8 @@ const LatestPackage = () => {
                 alt=""
                 className="rounded-3xl h-full w-full object-cover"
               />
-              <button className="px-6 py-2 gap-x-2 items-center text-[#ff1111] bg-[#ffe1e1] rounded-full absolute bottom-10 left-4">
-                <FaFire className="" />
+              <button className="px-6 flex py-2 gap-x-2 items-center text-[#ff1111] bg-[#ffe1e1] rounded-full absolute bottom-10 left-4">
+                <FaFire/>
                 Popular
               </button>
             </div>
@@ -99,8 +99,8 @@ const LatestPackage = () => {
                 alt=""
                 className="rounded-3xl h-full w-full object-cover"
               />
-              <button className="px-6 py-2 gap-x-2 items-center text-[#119bff] bg-[#d7eeff] rounded-full absolute bottom-10 left-4">
-                <FaFire className="" />
+              <button className="px-6 flex py-2 gap-x-2 items-center text-[#119bff] bg-[#d7eeff] rounded-full absolute bottom-10 left-4">
+                <FaHouseUser/>
                 New Listing
               </button>
             </div>
@@ -125,8 +125,8 @@ const LatestPackage = () => {
                 alt=""
                 className="rounded-3xl h-full w-full object-cover"
               />
-              <button className="px-6 py-2 gap-x-2 items-center text-[#00ce3a] bg-[#f1fff1] rounded-full absolute bottom-10 left-4">
-                <FaFire className="" />
+              <button className="px-6 flex py-2 gap-x-2 items-center text-[#00ce3a] bg-[#f1fff1] rounded-full absolute bottom-10 left-4">
+                <FaDollarSign/>
                 Discounted Price
               </button>
             </div>
@@ -151,8 +151,8 @@ const LatestPackage = () => {
                 alt=""
                 className="rounded-3xl h-full w-full object-cover"
               />
-              <button className="px-6 py-2 gap-x-2 items-center text-[#ff1111] bg-[#ffe1e1] rounded-full absolute bottom-10 left-4">
-                <FaFire className="" />
+              <button className="px-6 flex py-2 gap-x-2 items-center text-[#ff1111] bg-[#ffe1e1] rounded-full absolute bottom-10 left-4">
+                <FaFire />
                 Popular
               </button>
             </div>
@@ -172,9 +172,110 @@ const LatestPackage = () => {
           </div>
         </Carousel>
 
-        <div>
-          <div>
-            <div><img src="" alt="" /></div>
+        <div className="sm:hidden block">
+          <div className="pt-8">
+            <div className="relative h-80 sm:w-80">
+              <img
+                src="/assets/img-blank.PNG"
+                alt=""
+                className="rounded-3xl h-full w-full object-cover"
+              />
+              <button className="px-6 flex py-2 gap-x-2 items-center text-[#ff1111] bg-[#ffe1e1] rounded-full absolute bottom-10 left-4">
+                <FaFire />
+                Popular
+              </button>
+            </div>
+            <span className="flex flex-col gap-y-1 py-4">
+              <p className="text-2xl font-medium">$ 5.99</p>
+              <p className="text-lg font-medium">Lorem ipsum dolor</p>
+              <p className="text-sm">Bengkulu</p>
+              <div className="flex items-center gap-x-4 text-sm">
+                <span className="flex items-center gap-x-4 text-sm">
+                  <PiBed className="text-2xl font-medium" /> 4 Beds
+                </span>
+                <span className="flex items-center gap-x-4 text-sm">
+                  <LuBath className="text-xl" /> 4 Bath
+                </span>
+              </div>
+            </span>
+          </div>
+          <div className="pt-8">
+            <div className="relative h-80 sm:w-80">
+              <img
+                src="/assets/img-blank.PNG"
+                alt=""
+                className="rounded-3xl h-full w-full object-cover"
+              />
+              <button className="px-6 flex py-2 gap-x-2 items-center text-[#119bff] bg-[#d7eeff] rounded-full absolute bottom-10 left-4">
+                <FaHouseUser />
+                New Listing
+              </button>
+            </div>
+            <span className="flex flex-col gap-y-1 py-4">
+              <p className="text-2xl font-medium">$ 5.99</p>
+              <p className="text-lg font-medium">Lorem ipsum dolor</p>
+              <p className="text-sm">Bengkulu</p>
+              <div className="flex items-center gap-x-4 text-sm">
+                <span className="flex items-center gap-x-4 text-sm">
+                  <PiBed className="text-2xl font-medium" /> 4 Beds
+                </span>
+                <span className="flex items-center gap-x-4 text-sm">
+                  <LuBath className="text-xl" /> 4 Bath
+                </span>
+              </div>
+            </span>
+          </div>
+          <div className="pt-8">
+            <div className="relative h-80 sm:w-80">
+              <img
+                src="/assets/img-blank.PNG"
+                alt=""
+                className="rounded-3xl h-full w-full object-cover"
+              />
+              <button className="px-6 flex py-2 gap-x-2 items-center text-[#00ce3a] bg-[#f1fff1] rounded-full absolute bottom-10 left-4">
+                <FaDollarSign/>
+                Discounted Price
+              </button>
+            </div>
+            <span className="flex flex-col gap-y-1 py-4">
+              <p className="text-2xl font-medium">$ 5.99</p>
+              <p className="text-lg font-medium">Lorem ipsum dolor</p>
+              <p className="text-sm">Bengkulu</p>
+              <div className="flex items-center gap-x-4 text-sm">
+                <span className="flex items-center gap-x-4 text-sm">
+                  <PiBed className="text-2xl font-medium" /> 4 Beds
+                </span>
+                <span className="flex items-center gap-x-4 text-sm">
+                  <LuBath className="text-xl" /> 4 Bath
+                </span>
+              </div>
+            </span>
+          </div>
+          <div className="pt-8">
+            <div className="relative h-80 sm:w-80">
+              <img
+                src="/assets/img-blank.PNG"
+                alt=""
+                className="rounded-3xl h-full w-full object-cover"
+              />
+              <button className="px-6 flex py-2 gap-x-2 items-center text-[#ff1111] bg-[#ffe1e1] rounded-full absolute bottom-10 left-4">
+                <FaFire />
+                Popular
+              </button>
+            </div>
+            <span className="flex flex-col gap-y-1 py-4">
+              <p className="text-2xl font-medium">$ 5.99</p>
+              <p className="text-lg font-medium">Lorem ipsum dolor</p>
+              <p className="text-sm">Bengkulu</p>
+              <div className="flex items-center gap-x-4 text-sm">
+                <span className="flex items-center gap-x-4 text-sm">
+                  <PiBed className="text-2xl font-medium" /> 4 Beds
+                </span>
+                <span className="flex items-center gap-x-4 text-sm">
+                  <LuBath className="text-xl" /> 4 Bath
+                </span>
+              </div>
+            </span>
           </div>
         </div>
       </section>
