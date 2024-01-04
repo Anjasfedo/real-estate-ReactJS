@@ -118,7 +118,65 @@ const LatestPackage = () => {
               </div>
             </span>
           </div>
+          <div>
+            <div className="relative h-80 sm:w-80">
+              <img
+                src="/assets/img-blank.PNG"
+                alt=""
+                className="rounded-3xl h-full w-full object-cover"
+              />
+              <button className="px-6 py-2 gap-x-2 items-center text-[#00ce3a] bg-[#f1fff1] rounded-full absolute bottom-10 left-4">
+                <FaFire className="" />
+                Discounted Price
+              </button>
+            </div>
+            <span className="flex flex-col gap-y-1 py-4">
+              <p className="text-2xl font-medium">$ 0.99</p>
+              <p className="text-lg font-medium">Lorem ipsum dolor</p>
+              <p className="text-sm">Bengkulu</p>
+              <div className="flex items-center gap-x-4 text-sm">
+                <span className="flex items-center gap-x-2">
+                  <PiBed className="text-xl" /> 4 Beds
+                </span>
+                <span className="flex items-center gap-x-2">
+                  <LuBath className="text-xl" /> 4 Bath
+                </span>
+              </div>
+            </span>
+          </div>
+          <div>
+            <div className="relative h-80 sm:w-80">
+              <img
+                src="/assets/img-blank.PNG"
+                alt=""
+                className="rounded-3xl h-full w-full object-cover"
+              />
+              <button className="px-6 py-2 gap-x-2 items-center text-[#ff1111] bg-[#ffe1e1] rounded-full absolute bottom-10 left-4">
+                <FaFire className="" />
+                Popular
+              </button>
+            </div>
+            <span className="flex flex-col gap-y-1 py-4">
+              <p className="text-2xl font-medium">$ 3.99</p>
+              <p className="text-lg font-medium">Lorem ipsum dolor</p>
+              <p className="text-sm">Bengkulu</p>
+              <div className="flex items-center gap-x-4 text-sm">
+                <span className="flex items-center gap-x-2">
+                  <PiBed className="text-xl" /> 4 Beds
+                </span>
+                <span className="flex items-center gap-x-2">
+                  <LuBath className="text-xl" /> 4 Bath
+                </span>
+              </div>
+            </span>
+          </div>
         </Carousel>
+
+        <div>
+          <div>
+            <div><img src="" alt="" /></div>
+          </div>
+        </div>
       </section>
     </main>
   );
