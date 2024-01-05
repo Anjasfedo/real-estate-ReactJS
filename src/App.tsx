@@ -6,6 +6,7 @@ import LatestPackage from "./components/LatestPackage";
 import OurServices from "./components/OurServices";
 import NeighborhoodProperty from "./components/NeighborhoodProperty";
 import Team from "./components/Team";
+import Testimonial from "./components/Testimonial";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <OurServices />
         <NeighborhoodProperty />
         <Team />
+        <Testimonial />
       </main>
       <Footer />
     </>
