@@ -90,7 +90,7 @@ const Footer = () => {
                   placeholder="Email Address"
                   className="h-full w-full rounded-full px-3"
                 />
-                <button className="bg-[#0ca39a] mt-4 text-white rounded-full w-12 h-12 flex justify-center items-center text-xl absolute right-1">
+                <button className="bg-[#0ca39a] mt-4 text-white rounded-full w-12 h-12 flex justify-center items-center text-xl absolute -top-3 right-1">
                   <IoArrowForward />
                 </button>
               </div>
