@@ -7,6 +7,7 @@ import OurServices from "./components/OurServices";
 import NeighborhoodProperty from "./components/NeighborhoodProperty";
 import Team from "./components/Team";
 import Testimonial from "./components/Testimonial";
+import JoinUs from "./components/JoinUs";
 
 function App() {
   return (
@@ -20,6 +21,7 @@ function App() {
         <NeighborhoodProperty />
         <Team />
         <Testimonial />
+        <JoinUs />
       </main>
       <Footer />
     </>
