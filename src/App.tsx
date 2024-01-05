@@ -5,6 +5,8 @@ import WhoWeAre from "./components/WhoWeAre";
 import LatestPackage from "./components/LatestPackage";
 import OurServices from "./components/OurServices";
 import NeighborhoodProperty from "./components/NeighborhoodProperty";
+import Team from "./components/Team";
+
 function App() {
   return (
     <>
@@ -15,6 +17,7 @@ function App() {
         <LatestPackage />
         <OurServices />
         <NeighborhoodProperty />
+        <Team />
       </main>
       <Footer />
     </>
