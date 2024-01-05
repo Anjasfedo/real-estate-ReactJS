@@ -3,6 +3,7 @@ import Footer from "./components/Footer";
 import RealEstate from "./components/RealEstate";
 import WhoWeAre from "./components/WhoWeAre";
 import LatestPackage from "./components/LatestPackage";
+import OurServices from "./components/OurServices";
 function App() {
   return (
     <>
@@ -11,6 +12,7 @@ function App() {
         <RealEstate />
         <WhoWeAre />
         <LatestPackage />
+        <OurServices />
       </main>
       <Footer />
     </>
