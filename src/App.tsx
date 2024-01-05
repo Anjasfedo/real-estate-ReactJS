@@ -4,6 +4,7 @@ import RealEstate from "./components/RealEstate";
 import WhoWeAre from "./components/WhoWeAre";
 import LatestPackage from "./components/LatestPackage";
 import OurServices from "./components/OurServices";
+import NeighborhoodProperty from "./components/NeighborhoodProperty";
 function App() {
   return (
     <>
@@ -13,6 +14,7 @@ function App() {
         <WhoWeAre />
         <LatestPackage />
         <OurServices />
+        <NeighborhoodProperty />
       </main>
       <Footer />
     </>
